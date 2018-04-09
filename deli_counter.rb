@@ -12,10 +12,8 @@ end
 
 def take_a_number(katz_deli, name)
 binding.pry
-line = []
-  if line.length >= 1
     count = 1
-    line << name
+    katz_deli << name
     puts "Welcome, #{name}. You are number #{count} in line."
     count += 1
   end

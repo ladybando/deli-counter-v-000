@@ -13,7 +13,7 @@ end
 def take_a_number(katz_deli, name)
     count = 1
     katz_deli << name
-    puts "Welcome, #{name}. You are number #{count} in line."
+    puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
     count += 1
   #  binding.pry
 end

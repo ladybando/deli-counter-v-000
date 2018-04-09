@@ -10,10 +10,10 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz_deli, name)
+def take_a_number(name)
 binding.pry
-  if katz_deli.length >= 1
-    line = []
+line = []
+  if line.length >= 1
     count = 1
     line << name
     puts "Welcome, #{name}. You are number #{count} in line."

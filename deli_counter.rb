@@ -15,7 +15,7 @@ end
 def take_a_number(katz_deli, name)
   if katz_deli.length >= 1
     line = []
-    katz_deli.each_with_index do |name, i|
+    katz_deli.push do |name, i|
       line <<"#{i + 1}" "#{name}"
     end
     puts "Welcome, #{name}. You are number #{line} in line."

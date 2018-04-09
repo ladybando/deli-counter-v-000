@@ -16,8 +16,7 @@ def take_a_number(katz_deli, name)
   if katz_deli.length >= 1
     line = []
     count = 1
-    line.push(name)
-      line << "#{name}"
+    line << name
     puts "Welcome, #{name}. You are number #{count} in line."
     count += 1
   end

@@ -11,6 +11,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
+binding.pry
   if katz_deli.length >= 1
     line = []
     count = 1

@@ -15,5 +15,5 @@ def take_a_number(katz_deli, name)
     katz_deli << name
     puts "Welcome, #{name}. You are number #{count} in line."
     count += 1
-    binding.pry
+  #  binding.pry
 end

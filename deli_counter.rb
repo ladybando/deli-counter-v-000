@@ -7,14 +7,13 @@ def line(katz_deli)
     end
     puts "The line is currently: #{line.join(" ")}"
   else puts "The line is currently empty."
+    binding.pry
   end
 end
 
 def take_a_number(katz_deli, name)
-binding.pry
     count = 1
     katz_deli << name
     puts "Welcome, #{name}. You are number #{count} in line."
     count += 1
-  end
 end
